@@ -42,7 +42,7 @@ const profileData = {
   skills: [
     {
       category: "Programming Languages",
-      topics: ["C#", "C++", "JavaScript"]
+      topics: ["C#", "C++", "HTML", "CSS", "JavaScript"]
     },
     {
       category: "Frameworks / Libraries",
