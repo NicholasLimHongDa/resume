@@ -22,8 +22,9 @@ html {
   bottom: 30px;
   right: 30px;
 
-  font-size: 1.0rem;
-  font-weight: bold;
+  font-size: 1.2rem;
+  /* font-weight: bold; */
+  letter-spacing: 1px;
   background-color: #6e6e6e;
   color: #fff;
 
