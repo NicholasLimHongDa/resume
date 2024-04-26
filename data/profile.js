@@ -9,7 +9,7 @@ const profileData = {
     contact: {
       email: "nicholas.lim.hong.da.cs@gmail.com",
       phone: "+60 16-709 1345",
-      address: "Johor, MY"
+      address: "Johor, Johor Bahru, MYS"
     }
   },
   links: [
@@ -24,7 +24,7 @@ const profileData = {
       alma: "CSE, TUT, Toyohashi",
       duration: "2022 - 2024",
       std: "B.Tech. (Computer Science & Engineering)",
-      score: "97.09%"
+      score: "86.00%"
     },
     {
       alma: "DICE, NITTC, Toyota",
@@ -41,8 +41,11 @@ const profileData = {
   ],
   skills: [
     {
+      graph: "true",
       category: "Programming Languages",
-      topics: ["C#", "C++", "HTML", "CSS", "JavaScript"]
+      // topics: [{ "name" :"C#", "perc": 90 }, "C++", "Python", "HTML", "CSS", "JavaScript"]
+      topics: [{ "name" :"C#", "perc": 90 }, { "name" :"C++", "perc": 90 }, { "name" :"Python", "perc": 60 }, 
+                    { "name" :"HTML", "perc": 40 }, { "name" :"CSS", "perc": 40 }, { "name" :"JavaScript", "perc": 40 }]
     },
     {
       category: "Frameworks / Libraries",
@@ -119,7 +122,8 @@ const profileData = {
     {
       organization: "TEDxToyotaKosen",
       title: "Speaker",
-      desc: `<a href='https://www.youtube.com/watch?v=yZYTklWIhQ4'> How to Acquire a Second Language </a>`,
+      link: "https://www.ted.com/tedx/events/48471",
+      //desc: `<a href='https://www.youtube.com/watch?v=yZYTklWIhQ4'> How to Acquire a Second Language </a>`,
       date: "Mar 2022",
       details: [
         `Delivered a presentation on the challenges of acquiring a non-native language and strategies to facilitate second language acquisition.`

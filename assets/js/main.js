@@ -10,8 +10,8 @@ const setTitle = data => {
     .querySelector('#contactEmail')
     .setAttribute('href', `mailto:${data.about.contact.email}`);
   document.querySelector('#contactPhone').innerHTML = data.about.contact.phone;
-  /* document.querySelector('#contactAddress').innerHTML =
-    data.about.contact.address; */
+  document.querySelector('#contactAddress').innerHTML =
+    data.about.contact.address;
 };
 
 const setLinks = links => {
@@ -145,18 +145,21 @@ const setSkills = skills => {
     if (skill.graph) {
       skill.topics.forEach(topic => {
         const skillGen = document.createElement('div');
-        skillGen.className = 'skill-gen';
+        skillGen.className = 'skill-progress-gen';
 
         const skillTitle = document.createElement('div');
         skillTitle.className = 'skill-title';
-        skillTitle.innerHTML = topic;
+        skillTitle.innerHTML = topic.name;
         skillGen.appendChild(skillTitle);
 
         const skillProgressTrack = document.createElement('div');
         skillProgressTrack.className = 'skill-progress-track';
-        const skillProgress = document.createElement('div');
+        // const skillProgress = document.createElement('div');
+        const skillProgress = document.createElement('progress');
         skillProgress.className = 'skill-progress';
-        skillProgress.style = `width: ${topic.perc}`;
+        // skillProgress.style = `width: ${topic.perc}`;
+        skillProgress.value = topic.perc;
+        skillProgress.max = 100;
         skillProgressTrack.appendChild(skillProgress);
 
         skillGen.appendChild(skillProgressTrack);
@@ -206,6 +209,20 @@ const setExperience = experiences => {
     expItem.appendChild(expSub);
 
     expListItem.appendChild(expItem);
+
+    if (!!exper.link) {
+      const experLink = document.createElement('span');
+      experLink.className = 'exper-link';
+
+      const a = document.createElement('a');
+      a.href = exper.link;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      a.innerHTML = `${exper.link}`;
+
+      experLink.appendChild(a);
+      expListItem.appendChild(experLink);
+    }
 
     if (exper.details) {
       const expDetails = document.createElement('ul');
