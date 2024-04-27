@@ -162,6 +162,12 @@ const setSkills = skills => {
         skillProgress.max = 100;
         skillProgressTrack.appendChild(skillProgress);
 
+        const skillProgressTooltip = document.createElement('span');
+        skillProgressTooltip.className = 'tooltiptext';
+        skillProgressTooltip.innerHTML = topic.duration;
+
+        skillGen.appendChild(skillProgressTooltip);
+
         skillGen.appendChild(skillProgressTrack);
 
         catSkillBody.appendChild(skillGen);

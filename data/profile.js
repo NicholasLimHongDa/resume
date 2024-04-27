@@ -1,7 +1,7 @@
 const profileData = {
   title: "Resume",
   name: "Nicholas Lim Hong Da",
-  sub_title: "Fresh Graduate",
+  sub_title: "JPA Scholar",
   logoURL: "assets/images/dp.jpg",
   about: {
     intro: `I am an innovative and passionate developer with a primary interest in <strong>C#</strong>, 
@@ -43,9 +43,10 @@ const profileData = {
     {
       graph: "true",
       category: "Programming Languages",
-      // topics: [{ "name" :"C#", "perc": 90 }, "C++", "Python", "HTML", "CSS", "JavaScript"]
-      topics: [{ "name" :"C#", "perc": 90 }, { "name" :"C++", "perc": 90 }, { "name" :"Python", "perc": 60 }, 
-                    { "name" :"HTML", "perc": 40 }, { "name" :"CSS", "perc": 40 }, { "name" :"JavaScript", "perc": 40 }]
+      // topics: [{ "name" :"C#", "perc": 90 }, { "name" :"C++", "perc": 90 }, { "name" :"Python", "perc": 60 }, 
+                    // { "name" :"HTML", "perc": 40 }, { "name" :"CSS", "perc": 40 }, { "name" :"JavaScript", "perc": 40 }]
+      topics: [{ "name" :"C#", "perc": 90, "duration": "2 years" }, { "name" :"C++", "perc": 75, "duration": "1.5 years" }, { "name" :"Python", "perc": 60, "duration": "1 year" }, 
+                    { "name" :"HTML", "perc": 30, "duration": "6 months" }, { "name" :"CSS", "perc": 30, "duration": "6 months" }, { "name" :"JavaScript", "perc": 30, "duration": "6 months" }]
     },
     {
       category: "Frameworks / Libraries",
