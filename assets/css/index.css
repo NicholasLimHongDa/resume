@@ -58,7 +58,7 @@ strong {
   padding: 10px 15px;
   margin: 0 auto;
   /* width: 55rem; */
-  max-width: 55rem;
+  max-width: 58rem;
   background-color: #fff;
 }
 
@@ -253,7 +253,7 @@ strong {
 
 .cat-skill-body-gen {
   display: inline;
-  margin: 10px 10px;
+  margin: 10px 7px;
   flex-wrap: wrap;
 }
 

@@ -15,7 +15,7 @@ const profileData = {
   links: [
     // { title: "Codepen", src: "https://codepen.io/imvpn22" },
     { title: "Github", src: "https://github.com/NicholasLimHongDa" },
-    { title: "LinkedIn", src: "https://www.linkedin.com/in/nlhd-cs/" }
+    { title: "LinkedIn", src: "https://www.linkedin.com/in/NicholasLimHongDa/" }
     // { title: 'Twitter', src: 'https://twitter.com/imvpn22' }
     // { title: 'HackerEarth', src: 'https://www.hackerearth.com/@imvpn22' },
   ],
@@ -96,7 +96,10 @@ const profileData = {
       details: [
         `Designed and developed a gesture recognition mobile app for disabled persons 
         using <strong>Unity</strong> with Bluetooth Low Energy and Bluetooth Classic 
-        connection capabilities. 
+        connection capabilities. The application is capable of detecting and interpreting subtle gestures, 
+        including blinking, finger twitching, eyebrow movement, and shoulder movements. 
+        These gestures are translated into actionable inputs, enabling remote control of devices such as 
+        smartphones, televisions, and personal computers.
         The project was endorsed by National Institute of Advanced Industrial Science and Technology (AIST) of Japan.`
       ]
     },
