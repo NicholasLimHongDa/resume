@@ -306,7 +306,7 @@ strong {
 
 .skill-progress {
   height: 10px;
-  max-width: 100px;
+  max-width: 120px;
   border: none;
   background-color: #858585;
 }
@@ -323,7 +323,7 @@ strong {
 
 .skill-progress-gen .tooltiptext {
   visibility: hidden;
-  width: 100px;
+  width: 120px;
   background-color: #3173bb;
   color: #fff;
   text-align: center;
