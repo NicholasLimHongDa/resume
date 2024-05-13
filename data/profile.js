@@ -92,7 +92,7 @@ const profileData = {
       organization: "Netcom Inc.",
       title: "Software Development Intern",
       desc: `<strong>Software development intern</strong> at <a href="https://www.netcom-inc.co.jp/"> <strong> Netcom Inc. </strong> </a>`,
-      date: "Jan 2024 - Mar 2024",
+      date: "Jan 2024 - Apr 2024",
       details: [
         `Designed and developed a gesture recognition mobile app for disabled persons 
         using <strong>Unity</strong> with Bluetooth Low Energy and Bluetooth Classic 
