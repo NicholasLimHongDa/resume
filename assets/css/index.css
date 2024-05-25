@@ -218,7 +218,7 @@ strong {
   padding-right: 5px;
 }
 
-.project-desc {
+.project-desc, .project-skill {
   /* margin-top: 8px; */
   color: #444;
   padding: 4px 0 4px 16px;

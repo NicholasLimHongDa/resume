@@ -49,12 +49,16 @@ const profileData = {
                     { "name" :"HTML", "perc": 30, "duration": "6 months" }, { "name" :"CSS", "perc": 30, "duration": "6 months" }, { "name" :"JavaScript", "perc": 30, "duration": "6 months" }]
     },
     {
-      category: "Frameworks / Libraries",
+      category: "Technical Skills",
       topics: [
-        "ROS",
-        "ROS2",
+        "Linux",
+        "Ubuntu",
+        "Bash",
+        "JSON",
         ".NET",
-        "Unity"
+        "Docker",
+        "Unity Game Engine",
+        "ROS"
       ]
     },
     {
@@ -73,18 +77,16 @@ const profileData = {
       duration: "Apr - Dec 2023",
       link: "https://github.com/NicholasLimHongDa/2023-tut-thesis-paper",
       desc: `Developed a robotic behavior aimed at enhancing collaborative search task efficiency by assisting humans in object search tasks. 
-      Built upon prior research by Takahiro Ishii et al., the project emphasizes bidirectional communication 
-      to prevent duplicate searches by the robot and human. 
-      Implemented using <strong>ROS</strong> with FlexBE, <strong>C++</strong>, and <strong>Python</strong>. 
-      Created a simulation environment utilizing <strong>Unity</strong> with PhotonPUN and SteamVR, alongside <strong>C#</strong>.`
+      Published a paper detailing the complexities of human-robot communication, and suggested possible enhancements to the algorithm.`
+      // skill: `Linux, Ubuntu, Bash, ROS, C#, C++, Python, SteamVR, .NET, Unity`, 
     },
     {
       title: "Powerpoint Subtitle System",
       duration: "Sept 2021 - Jan 2022",
       link: "https://github.com/NicholasLimHongDa/powerpoint-subtitle-system",
       desc: `Developed a Microsoft PowerPoint plugin facilitating voice recognition for Japanese language, integrating line breaks to enhance subtitle readability. 
-      Used Microsoft Azure Cognitive Services for voice recognition functionality. 
-      Designed and implemented using <strong>.NET</strong>, <strong>C#</strong>, and <a href='https://taku910.github.io/cabocha/'> CaboCha </a>`
+      Designed and implemented using Microsoft Azure Cognitive Services, .NET, C#, and <a href='https://taku910.github.io/cabocha/'> CaboCha </a>`,
+      // skill: `C#, .NET, Bash, PowerPoint Programming, Natural Language Processing, `, 
     }
   ],
   experiences: [
@@ -95,12 +97,12 @@ const profileData = {
       date: "Jan 2024 - Apr 2024",
       details: [
         `Designed and developed a gesture recognition mobile app for disabled persons 
-        using <strong>Unity</strong> with Bluetooth Low Energy and Bluetooth Classic 
-        connection capabilities. The application is capable of detecting and interpreting subtle gestures, 
-        including blinking, finger twitching, eyebrow movement, and shoulder movements. 
-        These gestures are translated into actionable inputs, enabling remote control of devices such as 
-        smartphones, televisions, and personal computers.
-        The project was endorsed by National Institute of Advanced Industrial Science and Technology (AIST) of Japan.`
+        with Bluetooth Low Energy connection capabilities.  
+        `, 
+        `The application is capable of detecting and interpreting subtle gestures into actionable inputs, 
+        enabling remote control of devices such as smartphones, televisions, and personal computers.`, 
+        `The project was endorsed by National Institute of Advanced Industrial Science and Technology (AIST) of Japan.`
+        
       ]
     },
     {
@@ -109,8 +111,8 @@ const profileData = {
       desc: `Japanese-English, Japanese-Bahasa Melayu Interpreter`,
       date: "Aug 2023 - Jan 2024",
       details: [
-        `Responsibilities included translating and interpreting technical instructions from Japanese to English for foreign workers at Toyota Motor Corporation factories. 
-        Conducted interpretation and translation tasks for Japanese-English and Japanese-Bahasa Melayu language pairs.`
+        `Responsibilities included translating and interpreting technical instructions from Japanese to English for foreign workers at Toyota Motor Corporation factories.`, 
+        `Conducted interpretation and translation tasks for Japanese-English and Japanese-Bahasa Melayu language pairs.`
       ]
     },
     {
@@ -119,8 +121,7 @@ const profileData = {
       desc: `Part-time Inventory Manager`,
       date: "Jan 2023 - Jan 2024",
       details: [
-        `Conducted inventory counts at customer stores and reporting findings to immediate supervisors or store managers. 
-        All tasks are performed in Japanese.`
+        `Conducted inventory counts at customer stores and reporting findings to immediate supervisors or store managers in Japanese.`,
       ]
     },
     {
@@ -130,7 +131,8 @@ const profileData = {
       //desc: `<a href='https://www.youtube.com/watch?v=yZYTklWIhQ4'> How to Acquire a Second Language </a>`,
       date: "Mar 2022",
       details: [
-        `Delivered a presentation on the challenges of acquiring a non-native language and strategies to facilitate second language acquisition.`
+        `Delivered a presentation on the challenges of acquiring a non-native language and strategies to facilitate second language acquisition.`,
+        `Hosted a brief discussion on the strengths of Natural Language Processing algorithms and their potential applications in society.`
       ]
     }
   ],

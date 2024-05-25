@@ -114,7 +114,12 @@ const setProjects = projects => {
     projectDesc.className = 'project-desc';
     projectDesc.innerHTML = project.desc;
 
+    const projectSkill = document.createElement('div');
+    projectSkill.className = 'project-skill';
+    projectSkill.innerHTML = `<strong>Skills: </strong>` + project.skill;
+
     li.appendChild(projectDesc);
+    // li.appendChild(projectSkill);
 
     ul.appendChild(li);
   });
