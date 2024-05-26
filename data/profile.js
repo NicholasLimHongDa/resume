@@ -45,8 +45,8 @@ const profileData = {
       category: "Programming Languages",
       // topics: [{ "name" :"C#", "perc": 90 }, { "name" :"C++", "perc": 90 }, { "name" :"Python", "perc": 60 }, 
                     // { "name" :"HTML", "perc": 40 }, { "name" :"CSS", "perc": 40 }, { "name" :"JavaScript", "perc": 40 }]
-      topics: [{ "name" :"C#", "perc": 90, "duration": "2 years" }, { "name" :"C++", "perc": 75, "duration": "1.5 years" }, { "name" :"Python", "perc": 60, "duration": "1 year" }, 
-                    { "name" :"HTML", "perc": 30, "duration": "6 months" }, { "name" :"CSS", "perc": 30, "duration": "6 months" }, { "name" :"JavaScript", "perc": 30, "duration": "6 months" }]
+      topics: [{ "name" :"C#", "perc": 95, "duration": "2 years" }, { "name" :"C++", "perc": 80, "duration": "1.5 years" }, { "name" :"Python", "perc": 70, "duration": "1 year" }, 
+                    { "name" :"HTML", "perc": 55, "duration": "6 months" }, { "name" :"CSS", "perc": 55, "duration": "6 months" }, { "name" :"JavaScript", "perc": 55, "duration": "6 months" }]
     },
     {
       category: "Technical Skills",
@@ -54,8 +54,10 @@ const profileData = {
         "Linux",
         "Ubuntu",
         "Bash",
+        "Git",
         "JSON",
         ".NET",
+        "SQL",
         "Docker",
         "Unity Game Engine",
         "ROS"
