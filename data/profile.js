@@ -98,7 +98,7 @@ const profileData = {
       desc: `<strong>Software development intern</strong> at <a href="https://www.netcom-inc.co.jp/"> <strong> Netcom Inc. </strong> </a>`,
       date: "Jan 2024 - Apr 2024",
       details: [
-        `Designed and developed a gesture recognition mobile app for disabled persons 
+        `Designed and developed a gesture recognition mobile app using Unity, C#, and .NET Core for disabled persons 
         with Bluetooth Low Energy connection capabilities.  
         `, 
         `The application is capable of detecting and interpreting subtle gestures into actionable inputs, 
