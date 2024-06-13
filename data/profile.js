@@ -13,11 +13,8 @@ const profileData = {
     }
   },
   links: [
-    // { title: "Codepen", src: "https://codepen.io/imvpn22" },
     { title: "Github", src: "https://github.com/NicholasLimHongDa" },
     { title: "LinkedIn", src: "https://www.linkedin.com/in/NicholasLimHongDa/" }
-    // { title: 'Twitter', src: 'https://twitter.com/imvpn22' }
-    // { title: 'HackerEarth', src: 'https://www.hackerearth.com/@imvpn22' },
   ],
   education: [
     {
@@ -61,6 +58,15 @@ const profileData = {
         "Docker",
         "Unity Game Engine",
         "ROS"
+      ]
+    },
+    {
+      category: "Knowledge",
+      topics: [
+        "Software Development Lifecycle",
+        "Software Testing Lifecycle",
+        "Scrum & Agile Methodologies",
+        "FT/UAT/SIT"
       ]
     },
     {
