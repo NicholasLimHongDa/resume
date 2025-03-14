@@ -252,8 +252,8 @@ strong {
 }
 
 .cat-skill-body-gen {
-  display: inline;
-  margin: 10px 7px;
+  display: flex;
+  margin: 2px 1px;
   flex-wrap: wrap;
 }
 
@@ -265,7 +265,7 @@ strong {
 .skill-gen {
   display: inline;
   padding: 5px 10px;
-  margin: 30px 6px;
+  margin: 5px 3px;
   background-color: #3173bb;
   color: #fff;
   border-radius: 1rem;

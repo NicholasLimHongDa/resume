@@ -24,19 +24,19 @@ const profileData = {
       alma: "CSE, TUT, Toyohashi",
       duration: "2022 - 2024",
       std: "B.Tech. (Computer Science & Engineering)",
-      score: "86.00%"
+      score: "CGPA 3.44"
     },
     {
       alma: "DICE, NITTC, Toyota",
       duration: "2019 - 2022",
       std: "Diploma (Information & Computer Engineering)",
-      score: "94.41%"
+      score: "CGPA 3.78"
     },
     {
       alma: "KTJ, INTEC, Shah Alam",
       duration: "2017 - 2019",
       std: "Japanese Preparatory Course",
-      score: "77.80%"
+      score: "CGPA 3.20"
     }
   ],
   skills: [
@@ -60,7 +60,15 @@ const profileData = {
         "SQL",
         "Docker",
         "Unity Game Engine",
-        "ROS"
+        "ROS",
+        "Automated Testing", 
+        "Manual Testing",
+        "FT/SIT/UAT",
+        "Requirement Analysis", 
+        "SDLC", 
+        "STLC",
+        "FDA 21 CFR Part 11", 
+        "GxP"
       ]
     },
     {
@@ -83,6 +91,13 @@ const profileData = {
       // skill: `Linux, Ubuntu, Bash, ROS, C#, C++, Python, SteamVR, .NET, Unity`, 
     },
     {
+      title: "Speaker at TEDxToyotaKosen",
+      duration: "Mar 2022",
+      link: "https://www.ted.com/tedx/events/48471",
+      desc: `Delivered a presentation on the challenges of acquiring a non-native language and strategies to facilitate second language acquisition. 
+      Hosted a brief discussion on the strengths of Natural Language Processing algorithms and their potential applications in society.`
+    },
+    {
       title: "Powerpoint Subtitle System",
       duration: "Sept 2021 - Jan 2022",
       link: "https://github.com/NicholasLimHongDa/powerpoint-subtitle-system",
@@ -92,6 +107,16 @@ const profileData = {
     }
   ],
   experiences: [
+    {
+      organization: "Cognizant Sdn. Bhd.",
+      title: "Validation Analyst",
+      desc: `<strong>CSV Analyst</strong> at <strong> Cognizant </strong>`,
+      date: "Jul 2024 - Present",
+      details: [`Facilitated trilingual communication (English, Mandarin, Japanese) with key stakeholders across multiple regions.`,
+      `Ensured regulatory compliance by aligning all new implementations and software changes with GxP practices and FDA 21 CFR Part 11.`, 
+      `Analyzed software requirements and designed comprehensive test scripts, achieving <1% defect leakage through maximum test coverage.`, 
+      `Expertise in testing methodologies, including Functional Testing, System Integration Testing, and User Acceptance Testing.`]
+    },
     {
       organization: "Netcom Inc.",
       title: "Software Development Intern",
@@ -116,7 +141,9 @@ const profileData = {
         `Responsibilities included translating and interpreting technical instructions from Japanese to English for foreign workers at Toyota Motor Corporation factories.`, 
         `Conducted interpretation and translation tasks for Japanese-English and Japanese-Bahasa Melayu language pairs.`
       ]
-    },
+    }
+    /*
+    ,
     {
       organization: "AJIS Co. Ltd.",
       title: "Part-time Inventory Manager",
@@ -125,24 +152,28 @@ const profileData = {
       details: [
         `Conducted inventory counts at customer stores and reporting findings to immediate supervisors or store managers in Japanese.`,
       ]
-    },
-    {
-      organization: "TEDxToyotaKosen",
-      title: "Speaker",
-      link: "https://www.ted.com/tedx/events/48471",
-      //desc: `<a href='https://www.youtube.com/watch?v=yZYTklWIhQ4'> How to Acquire a Second Language </a>`,
-      date: "Mar 2022",
-      details: [
-        `Delivered a presentation on the challenges of acquiring a non-native language and strategies to facilitate second language acquisition.`,
-        `Hosted a brief discussion on the strengths of Natural Language Processing algorithms and their potential applications in society.`
-      ]
     }
+    */
   ],
   certifications: [
     {
-      desc: `<strong>Japanese Proficiency Level N1</strong> by <strong>JLPT</strong>.`,
+      desc: `<strong>Google IT Automation with Python Professional Certificate</strong>`,
       details: [
-        `The highest-level certificate of Japanese proficiency. Credential ID: N1A283092J`
+        `Credential ID: WHF5I489SX6J`
+      ],
+      date: "Nov 2024"
+    },
+    {
+      desc: `<strong>ISTQB Certified Tester, Foundation Level 4.0</strong>`,
+      details: [
+        `Credential ID: MY0182-24`
+      ],
+      date: "Oct 2024"
+    },
+    {
+      desc: `<strong>Japanese Proficiency Level N1</strong> by <strong>JLPT</strong>`,
+      details: [
+        `Credential ID: N1A283092J`
       ],
       date: "Jul 2023"
     }
