@@ -58,23 +58,21 @@ const profileData = {
         "Docker",
         "Unity Game Engine",
         "ROS",
-        "Automated Testing", 
-        "Manual Testing",
-        "FT/SIT/UAT",
-        "Requirement Analysis", 
-        "SDLC", 
-        "STLC",
-        "FDA 21 CFR Part 11", 
-        "GxP"
+        "Cypress"
       ]
     },
     {
       category: "Knowledge",
       topics: [
-        "Software Development Lifecycle",
-        "Software Testing Lifecycle",
-        "Scrum & Agile Methodologies",
-        "FT/UAT/SIT"
+        "SDLC",
+        "STLC",
+        "Scrum & Agile",
+        "FT/UAT/SIT",
+        "Requirement Analysis", 
+        "Automated Testing", 
+        "Manual Testing",
+        "FDA 21 CFR Part 11", 
+        "GxP"
       ]
     },
     {
@@ -121,7 +119,7 @@ const profileData = {
       details: [`Facilitated trilingual communication (English, Mandarin, Japanese) with key stakeholders across multiple regions.`,
       `Ensured regulatory compliance by aligning all new implementations and software changes with GxP practices and FDA 21 CFR Part 11.`, 
       `Analyzed software requirements and designed comprehensive test scripts, achieving <1% defect leakage through maximum test coverage.`, 
-      `Expertise in testing methodologies, including Functional Testing, System Integration Testing, and User Acceptance Testing.`]
+      `Proven expertise in software testing methodologies, including Functional Testing, System Integration Testing, and User Acceptance Testing.`]
     },
     {
       organization: "Netcom Inc.",

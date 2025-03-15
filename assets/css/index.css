@@ -58,7 +58,7 @@ strong {
   padding: 10px 15px;
   margin: 0 auto;
   /* width: 55rem; */
-  max-width: 65rem;
+  max-width: 66rem;
   background-color: #fff;
 }
 
@@ -161,8 +161,9 @@ strong {
 
 /* Lists */
 .cat-list-body {
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
 }
+
 .cat-list-body ul {
   padding-left: 18px;
   margin: 0;
@@ -227,7 +228,7 @@ strong {
 
 /* Skills */
 .cat-skill-item {
-  padding: 0.2rem 0 10px 0 !important;
+  padding: 0.2rem 0 2px 0 !important;
   padding-left: 0.6rem !important;
 }
 
