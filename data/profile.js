@@ -119,7 +119,7 @@ const profileData = {
       details: [`Facilitated trilingual communication (English, Mandarin, Japanese) with key stakeholders across multiple regions.`,
       `Ensured regulatory compliance by aligning all new implementations and software changes with GxP practices and FDA 21 CFR Part 11.`, 
       `Analyzed software requirements and designed comprehensive test scripts, achieving <1% defect leakage through maximum test coverage.`, 
-      `Proven expertise in software testing methodologies, including Functional Testing, System Integration Testing, and User Acceptance Testing.`]
+      `Expertise in software testing methodologies, including Functional Testing, System Integration Testing, and User Acceptance Testing.`]
     },
     {
       organization: "Netcom Inc.",
