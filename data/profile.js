@@ -161,6 +161,14 @@ const profileData = {
   ],
   certifications: [
     {
+      desc: `<strong>Microsoft Certified: Azure AI Engineer Associate</strong>`,
+      details: [
+        `Credential ID: 3734E8A63268F1B7`
+      ],
+      date: "Mar 2025"
+    },
+    
+    {
       desc: `<strong>Google IT Automation with Python Professional Certificate</strong>`,
       details: [
         `Credential ID: WHF5I489SX6J`
